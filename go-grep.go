@@ -8,6 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 	"sync"
+	
+	"github.com/shaochennjtu/go-grep/"
 )
 
 var root, query string
