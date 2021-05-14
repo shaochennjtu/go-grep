@@ -10,7 +10,7 @@ go-grep [-e] [pattern] [file]
 
 Utils is a go language development toolkit that mainly includes functions such as string, slice, map, time, type judgment, type conversion, and data compression.
 
-# How to use utils?
+How to use utils?
 Public
 
   import "github.com/shaochennjtu/utils"
