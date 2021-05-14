@@ -4,14 +4,16 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"path/filepath"
-	"strings"
-	"sync"
-	
+	"log"
+		
 	"github.com/shaochennjtu/go-grep/"
 )
 
-var regexpFlag = flag.Bool("e", false, "Interpret pattern as an regular expression")
+var h = flag.Bool("h", false, "go-grep -h")
+
+Usage
+go-grep [-e] [pattern] [file]
+
 
 func init() {
 	flag.Usage = func() {
